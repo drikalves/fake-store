@@ -8,6 +8,16 @@ Vue.config.productionTip = false;
 
 Vue.component('PageLoading', PageLoading);
 
+Vue.filter('numberPrice', (value) => {
+  if (!value.isNan) {
+    return value.toLocaleString('en-US', {
+      style: 'currency',
+      currency: 'USD',
+    });
+  }
+  return '';
+});
+
 new Vue({
   router,
   store,

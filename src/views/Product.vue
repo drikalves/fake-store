@@ -4,7 +4,7 @@
       <img v-if="product.image" :src="product.image" :alt="`${product.id}-image`">
       <div class="info">
         <h1 class="title">{{ product.title }}</h1>
-        <p class="price">{{ product.price }}</p>
+        <p class="price">{{ product.price | numberPrice }}</p>
         <p class="description">{{ product.description }}</p>
         <button class="btn">Buy</button>
       </div>
