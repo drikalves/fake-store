@@ -20,8 +20,13 @@
 </template>
 
 <script>
+import LoginCreate from '@/components/LoginCreate.vue';
+
 export default {
   name: 'Login',
+  components: {
+    LoginCreate,
+  },
   data() {
     return {
       login: {
