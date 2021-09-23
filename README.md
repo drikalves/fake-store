@@ -1,4 +1,4 @@
-# fake-store
+# shop-on
 
 ## Project setup
 ```
