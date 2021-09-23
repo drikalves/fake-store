@@ -1,10 +1,10 @@
 <template>
   <section>
-    <h2>Create account</h2>
+    <h2>Create New Account</h2>
     <transition mode="out-in">
-      <button v-if="!create" class="btn" @click="create = true">Create Account</button>
+      <button v-if="!create" class="btn" @click="create = true">Create user</button>
       <UserForm v-else>
-        <button class="btn btn-form" @click.prevent="createUser">Create account</button>
+        <button class="btn btn-form" @click.prevent="createUser">Sign Up</button>
       </UserForm>
     </transition>
   </section>
@@ -33,16 +33,16 @@ export default {
 
 <style scoped>
 h2 {
-  text-align: center;
-  margin-top: 40px;
   margin-bottom: 10px;
+  margin-top: 40px;
+  text-align: center;
 }
 
 .btn {
-  width: 100%;
-  max-width: 300px;
   margin-left: auto;
   margin-right: auto;
+  max-width: 300px;
+  width: 100%;
 }
 
 .btn-form {

@@ -1,6 +1,6 @@
 <template>
   <section class="login">
-    <h1>Login</h1>
+    <h1>Log in</h1>
     <form>
       <label for="username">Username</label>
       <input type="text" name="username" id="username" v-model="login.username">
@@ -8,11 +8,11 @@
       <label for="password">Password</label>
       <input type="password" name="password" id="password" v-model="login.password">
 
-      <button class="btn" @click.prevent="connect">Login</button>
+      <button class="btn" @click.prevent="connect">Log In</button>
     </form>
 
     <p class="forgot">
-      <a href="/" target="_blank">Forgot your password? Click here.</a>
+      <a href="/" target="_blank">Forgot Password?</a>
     </p>
 
     <LoginCreate/>
