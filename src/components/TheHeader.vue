@@ -2,7 +2,7 @@
   <header>
     <nav>
       <router-link to="/" class="logo">
-        <img  src="@/assets/shopon.gif" alt="logo">
+        <img  src="@/assets/shopon.svg" alt="logo">
       </router-link>
       <router-link class="btn" to="/login">Login</router-link>
     </nav>

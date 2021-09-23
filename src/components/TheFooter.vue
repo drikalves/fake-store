@@ -12,7 +12,7 @@ export default {
 
 <style scoped>
 footer {
-  background: linear-gradient(to left, #87f, #ff64c6);
+  background: linear-gradient(to left, #87f, #00c2cb);
   color: #fff;
   font-size: 1.2rem;
   padding: 25px 0;

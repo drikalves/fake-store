@@ -48,7 +48,7 @@ export default {
 }
 
 .price {
-  color: #ff64c6;
+  color: #00c2cb;
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 40px;
