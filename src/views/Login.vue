@@ -2,20 +2,20 @@
   <section class="login">
     <h1>Login</h1>
     <form>
-      <label for="email">Email</label>
-      <input type="email" name="email" id="email" v-model="login.email">
+      <label for="username">Username</label>
+      <input type="text" name="username" id="username" v-model="login.username">
 
-      <label for="password">Senha</label>
+      <label for="password">Password</label>
       <input type="password" name="password" id="password" v-model="login.password">
 
-      <button class="btn" @click.prevent="login">Login</button>
+      <button class="btn" @click.prevent="connect">Login</button>
     </form>
 
     <p class="forgot">
       <a href="/" target="_blank">Forgot your password? Click here.</a>
     </p>
 
-    <LoginCreate />
+    <LoginCreate/>
   </section>
 </template>
 
@@ -30,8 +30,8 @@ export default {
   data() {
     return {
       login: {
-        email: '',
-        senha: '',
+        username: '',
+        password: '',
       },
     };
   },
